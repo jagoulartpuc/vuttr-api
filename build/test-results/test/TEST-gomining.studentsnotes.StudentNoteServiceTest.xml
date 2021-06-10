@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gomining.studentsnotes.StudentNoteServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-01-28T20:03:16" hostname="DESKTOP-UNU9LPI" time="0.439">
+  <properties/>
+  <testcase name="studentNoteServiceShouldGetNoteById" classname="gomining.studentsnotes.StudentNoteServiceTest" time="0.434"/>
+  <testcase name="studentNoteServiceShouldInsertNote" classname="gomining.studentsnotes.StudentNoteServiceTest" time="0.003"/>
+  <testcase name="studentNoteServiceShouldEditNote" classname="gomining.studentsnotes.StudentNoteServiceTest" time="0.001"/>
+  <testcase name="studentNoteServiceShouldDeleteNote" classname="gomining.studentsnotes.StudentNoteServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

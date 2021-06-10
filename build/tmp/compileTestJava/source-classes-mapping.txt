@@ -1,0 +1,6 @@
+gomining/studentsnotes/StudentsNotesApplicationTests.java
+ gomining.studentsnotes.StudentsNotesApplicationTests
+gomining/studentsnotes/StudentNoteIntegrationTest.java
+ gomining.studentsnotes.StudentNoteIntegrationTest
+gomining/studentsnotes/StudentNoteServiceTest.java
+ gomining.studentsnotes.StudentNoteServiceTest

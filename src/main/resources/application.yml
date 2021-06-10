@@ -1,0 +1,10 @@
+server:
+  port: 3000
+
+spring:
+  data:
+    mongodb:
+      database: vuttr
+      authentication-database: admin
+      port: 27017
+      host: localhost
