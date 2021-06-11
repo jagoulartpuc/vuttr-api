@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="startaideia.ToolServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-06-11T16:43:36" hostname="DESKTOP-UNU9LPI" time="1.309">
+  <properties/>
+  <testcase name="toolServiceShouldlistToolsByTag" classname="startaideia.ToolServiceTest" time="1.304"/>
+  <testcase name="toolServiceShouldInsertTool" classname="startaideia.ToolServiceTest" time="0.002"/>
+  <testcase name="toolServiceShouldlistTools" classname="startaideia.ToolServiceTest" time="0.001"/>
+  <testcase name="toolServiceShouldDeleteTool" classname="startaideia.ToolServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

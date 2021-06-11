@@ -1,6 +1,6 @@
 startaideia/VuttrApplicationTests.java
  startaideia.VuttrApplicationTests
-startaideia/ToolServiceTest.java
- startaideia.ToolServiceTest
 startaideia/ToolIntegrationTest.java
  startaideia.ToolIntegrationTest
+startaideia/ToolServiceTest.java
+ startaideia.ToolServiceTest
