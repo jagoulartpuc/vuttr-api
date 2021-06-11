@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.668s</div>
+<div class="counter">0.777s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,17 +79,17 @@
 </thead>
 <tr>
 <td class="success">toolsApiShouldListAllAndReturn200</td>
-<td class="success">0.010s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">toolsApiShouldListByTagAndReturn200WithNoTool</td>
-<td class="success">0.009s</td>
+<td class="success">0.011s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">toolsApiShouldListByTagAndReturn200WithOneTool</td>
-<td class="success">1.649s</td>
+<td class="success">0.753s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -97,30 +97,30 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>13:43:24.073 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class startaideia.ToolIntegrationTest]
-13:43:24.085 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-13:43:24.096 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-13:43:24.208 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [startaideia.ToolIntegrationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-13:43:24.312 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [startaideia.ToolIntegrationTest], using SpringBootContextLoader
-13:43:24.464 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [startaideia.ToolIntegrationTest]: class path resource [startaideia/ToolIntegrationTest-context.xml] does not exist
-13:43:24.466 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [startaideia.ToolIntegrationTest]: class path resource [startaideia/ToolIntegrationTestContext.groovy] does not exist
-13:43:24.467 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [startaideia.ToolIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-13:43:25.589 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [startaideia.ToolIntegrationTest]
-13:43:25.754 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [startaideia.ToolIntegrationTest]: using defaults.
-13:43:25.755 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-13:43:26.183 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6342b784, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@279b872b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@296eaced, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4c591f20, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3ad16fb8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@41080516, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d5dd01e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@19f97c8a, org.springframework.test.context.event.EventPublishingTestExecutionListener@28646ca2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@29c5ec0d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5a6b140b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@8242ee0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3ae523a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@50d63c6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7c4f420]
-13:43:26.186 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [startaideia.ToolIntegrationTest]
-13:43:26.187 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [startaideia.ToolIntegrationTest]
-13:43:26.189 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [startaideia.ToolIntegrationTest]
-13:43:26.190 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [startaideia.ToolIntegrationTest]
-13:43:26.191 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [startaideia.ToolIntegrationTest]
-13:43:26.191 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [startaideia.ToolIntegrationTest]
-13:43:26.192 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [startaideia.ToolIntegrationTest]
-13:43:26.192 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [startaideia.ToolIntegrationTest]
-13:43:26.349 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@23eeef9a testClass = ToolIntegrationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4312b012 testClass = ToolIntegrationTest, locations = '{}', classes = '{class startaideia.VuttrApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@233e0dd4, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@61f79798, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@70a564ca, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@29d20ecc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@66a08b80, org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@e71cc02, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@25ffc9b5], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
-13:43:26.436 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [startaideia.ToolIntegrationTest]
-13:43:26.437 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [startaideia.ToolIntegrationTest]
-13:43:26.756 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+<pre>14:20:53.157 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class startaideia.ToolIntegrationTest]
+14:20:53.170 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:20:53.180 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:20:53.221 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [startaideia.ToolIntegrationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:20:53.234 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [startaideia.ToolIntegrationTest], using SpringBootContextLoader
+14:20:53.239 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [startaideia.ToolIntegrationTest]: class path resource [startaideia/ToolIntegrationTest-context.xml] does not exist
+14:20:53.239 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [startaideia.ToolIntegrationTest]: class path resource [startaideia/ToolIntegrationTestContext.groovy] does not exist
+14:20:53.239 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [startaideia.ToolIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:20:53.301 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [startaideia.ToolIntegrationTest]
+14:20:53.434 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [startaideia.ToolIntegrationTest]: using defaults.
+14:20:53.436 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:20:53.461 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7cec6ca8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5cbb2897, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4790a179, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3e73cbb0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@21e579fa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@249f02c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66c6f442, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@46c88d61, org.springframework.test.context.event.EventPublishingTestExecutionListener@4c6816eb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@103d9cad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@41880e0c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@43a920d9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4f7aa909, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@33de9cbf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@32271ca6]
+14:20:53.465 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [startaideia.ToolIntegrationTest]
+14:20:53.466 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [startaideia.ToolIntegrationTest]
+14:20:53.468 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [startaideia.ToolIntegrationTest]
+14:20:53.468 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [startaideia.ToolIntegrationTest]
+14:20:53.469 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [startaideia.ToolIntegrationTest]
+14:20:53.469 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [startaideia.ToolIntegrationTest]
+14:20:53.470 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [startaideia.ToolIntegrationTest]
+14:20:53.470 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [startaideia.ToolIntegrationTest]
+14:20:53.477 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@58bf32e0 testClass = ToolIntegrationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5ce25399 testClass = ToolIntegrationTest, locations = '{}', classes = '{class startaideia.VuttrApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@53fc9b0f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7fd6758d, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@405591f7, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@543c57c6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@431bf41f, org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@fdeb2fa, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@18585aa9], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+14:20:53.480 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [startaideia.ToolIntegrationTest]
+14:20:53.481 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [startaideia.ToolIntegrationTest]
+14:20:53.510 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -130,26 +130,26 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.4.2)
 
-2021-06-11 13:43:28.269  INFO 16728 --- [    Test worker] startaideia.ToolIntegrationTest          : Starting ToolIntegrationTest using Java 11.0.5 on DESKTOP-UNU9LPI with PID 16728 (started by a in C:\Users\a\Downloads\students-notes)
-2021-06-11 13:43:28.271  INFO 16728 --- [    Test worker] startaideia.ToolIntegrationTest          : No active profile set, falling back to default profiles: default
-2021-06-11 13:43:31.208  INFO 16728 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2021-06-11 13:43:31.284  INFO 16728 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 MongoDB repository interfaces.
-2021-06-11 13:43:31.703  INFO 16728 --- [    Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-2021-06-11 13:43:31.858  INFO 16728 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:81}] to localhost:27017
-2021-06-11 13:43:31.858  INFO 16728 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:82}] to localhost:27017
-2021-06-11 13:43:31.860  INFO 16728 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19576800}
-2021-06-11 13:43:33.902  INFO 16728 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-06-11 13:43:34.732  INFO 16728 --- [    Test worker] startaideia.ToolIntegrationTest          : Started ToolIntegrationTest in 7.706 seconds (JVM running for 16.855)
-2021-06-11 13:43:35.690  INFO 16728 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2021-06-11 13:43:35.690  INFO 16728 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2021-06-11 13:43:35.691  INFO 16728 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2021-06-11 13:43:36.012  INFO 16728 --- [    Test worker] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:83}] to localhost:27017
-2021-06-11 13:43:36.437  INFO 16728 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2021-06-11 13:43:36.438  INFO 16728 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2021-06-11 13:43:36.438  INFO 16728 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2021-06-11 13:43:36.448  INFO 16728 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2021-06-11 13:43:36.448  INFO 16728 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2021-06-11 13:43:36.448  INFO 16728 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2021-06-11 14:20:53.961  INFO 17856 --- [    Test worker] startaideia.ToolIntegrationTest          : Starting ToolIntegrationTest using Java 11.0.5 on DESKTOP-UNU9LPI with PID 17856 (started by a in C:\Users\a\Downloads\students-notes)
+2021-06-11 14:20:53.963  INFO 17856 --- [    Test worker] startaideia.ToolIntegrationTest          : No active profile set, falling back to default profiles: default
+2021-06-11 14:20:54.589  INFO 17856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-06-11 14:20:54.638  INFO 17856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 MongoDB repository interfaces.
+2021-06-11 14:20:55.005  INFO 17856 --- [    Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-06-11 14:20:55.078  INFO 17856 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:92}] to localhost:27017
+2021-06-11 14:20:55.078  INFO 17856 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:91}] to localhost:27017
+2021-06-11 14:20:55.079  INFO 17856 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20488400}
+2021-06-11 14:20:55.763  INFO 17856 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-11 14:20:56.583  INFO 17856 --- [    Test worker] startaideia.ToolIntegrationTest          : Started ToolIntegrationTest in 3.062 seconds (JVM running for 7.898)
+2021-06-11 14:20:57.040  INFO 17856 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-06-11 14:20:57.040  INFO 17856 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-06-11 14:20:57.041  INFO 17856 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-06-11 14:20:57.231  INFO 17856 --- [    Test worker] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:93}] to localhost:27017
+2021-06-11 14:20:57.361  INFO 17856 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-06-11 14:20:57.361  INFO 17856 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-06-11 14:20:57.362  INFO 17856 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-06-11 14:20:57.374  INFO 17856 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-06-11 14:20:57.374  INFO 17856 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-06-11 14:20:57.374  INFO 17856 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
 </pre>
 </span>
 </div>
@@ -161,7 +161,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.7.1</a> at 11 de jun de 2021 13:43:38</p>
+<a href="http://www.gradle.org">Gradle 6.7.1</a> at 11 de jun de 2021 14:20:57</p>
 </div>
 </div>
 </body>
