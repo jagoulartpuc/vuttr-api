@@ -1,10 +1,10 @@
 startaideia/repository/ToolRepository.java
  startaideia.repository.ToolRepository
-startaideia/VuttrApplication.java
- startaideia.VuttrApplication
 startaideia/domain/Tool.java
  startaideia.domain.Tool
-startaideia/service/ToolService.java
- startaideia.service.ToolService
+startaideia/VuttrApplication.java
+ startaideia.VuttrApplication
 startaideia/controller/ToolController.java
  startaideia.controller.ToolController
+startaideia/service/ToolService.java
+ startaideia.service.ToolService

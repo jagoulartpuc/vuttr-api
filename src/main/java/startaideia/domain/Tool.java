@@ -12,6 +12,7 @@ public class Tool {
     @Id
     private String id;
     private String title;
+    private String link;
     private String description;
     private List<String> tags = new ArrayList<>();
 

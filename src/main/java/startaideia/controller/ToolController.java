@@ -1,5 +1,7 @@
 package startaideia.controller;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import startaideia.domain.Tool;
 import startaideia.service.ToolService;
 import lombok.Setter;
@@ -17,10 +19,10 @@ public class ToolController {
     private ToolService service;
 
     @PostMapping
-    public Tool postTool(
+    public ResponseEntity<Tool> postTool(
             @RequestBody Tool tool
     ) {
-        return service.insertTool(tool);
+        return new ResponseEntity<>(service.insertTool(tool), HttpStatus.CREATED);
     }
 
     @GetMapping
@@ -28,19 +30,19 @@ public class ToolController {
         return service.listTools();
     }
 
-    @GetMapping("/{tag}")
+    @GetMapping("/tag={tag}")
     public List<Tool> listAllToolsByTag(
             @PathVariable String tag
     ) {
         return service.listToolsByTag(tag);
     }
 
-    @DeleteMapping
-    public boolean deleteStudentNote(
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Tool> deleteStudentNote(
             @PathVariable String id
     ) {
         service.deleteTool(id);
-        return true;
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
 }
